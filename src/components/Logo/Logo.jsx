@@ -5,7 +5,7 @@ export function Logo({title, subtitle, img}) {
     <>
     <div className={style.container}>
         <img className={style.img} src={img} alt='tv-logo'/>
-        <h2 className={style.title}>{title}</h2>
+        <h3 className={style.title}>{title}</h3>
     </div>
     <h5 className={style.subtitle}>
         {subtitle}
