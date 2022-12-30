@@ -5,11 +5,11 @@ export function Logo({title, subtitle, img}) {
     <>
     <div className={style.container}>
         <img className={style.img} src={img} alt='tv-logo'/>
-        <div className={style.title}>{title}</div>
+        <h2 className={style.title}>{title}</h2>
     </div>
-    <div className={style.subtitle}>
+    <h5 className={style.subtitle}>
         {subtitle}
-    </div>
+    </h5>
     </>
   )
 }

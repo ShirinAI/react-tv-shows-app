@@ -16,7 +16,7 @@ export function SearchBar({ onSubmit }) {
           onKeyUp={submit}
             className={style.input} 
             type='text' 
-            placeholder={'Search a tv show'} 
+            placeholder={'Search a tv show and press enter'} 
         />
     </>
   )
