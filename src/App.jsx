@@ -5,7 +5,7 @@ import { BACKDROP_BASE_URL } from './config';
 import { TvShowDetail } from './components/TvShowDetail/TvShowDetail';
 import { Logo } from './components/Logo/Logo';
 import logo from './assets/images/tv-logo.png'
-import { TvShowList } from './components/TvShowList/TvShowList';
+
 import { Recommended } from './components/Recommended/Recommended';
 import { SearchBar } from './components/SearchBar/SearchBar';
 
@@ -58,7 +58,7 @@ console.log(currentTvShow)
         <div className={style.header}>
             <div className='row'>
                 <div className='col-4'>
-                     <Logo img={logo} title='Best Shows Now' subtitle='What everyone is watching'/>
+                     <Logo img={logo} title='Best Shows Now' subtitle='What everyone is watching.' subtitle2='Special thanks to TMBD'/>
                 </div>
                 <div className='col-md-12 col-lg-4'>
                     <SearchBar onSubmit={fetchByTitle}/>

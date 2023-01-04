@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Logo.module.css'
-export function Logo({title, subtitle, img}) {
+export function Logo({title, subtitle, img, subtitle2}) {
   return (
     <>
     <div className={style.container}>
@@ -10,6 +10,7 @@ export function Logo({title, subtitle, img}) {
     <h5 className={style.subtitle}>
         {subtitle}
     </h5>
+    <h6>{subtitle2}</h6>
     </>
   )
 }
